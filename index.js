@@ -39,6 +39,8 @@ client.on('message', message => {
         client.commands.get('badut').execute(message, args)
     } else if(command === 'infoserver'){
         client.commands.get('infoserver').execute(message, args)
+    } else if(command === 'infoserver'){
+        client.commands.get('infoserver').execute(message, args)
     } 
 })
 
